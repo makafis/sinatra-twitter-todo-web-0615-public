@@ -11,10 +11,10 @@ class GetTweets
 
   TWITTER = Twitter::REST::Client.new do |config|
     # go to https://dev.twitter.com/apps and create your own twitter app. Then grab your keys and replace these ones
-    config.consumer_key = "SOo0mIfGvsFVP7OlrNVaRS7bE"
-    config.consumer_secret = "yzNnxhbZknAcIOWXiPAL7UWVrdqr3hBYgLJPs6sTqaYiCVEXHh"
-    config.access_token = "276237692-vwCB7oLa5TWBoDFv7MVdap6aDxzAqdVFbpyjrwQM"
-    config.access_token_secret = "iXQ7vSO7Rvq8zVnZO3u8LDRMQvTzcHCfTRDUTBB3ZNRk0"
+    config.consumer_key = "ITBNfQmVgMZdnao04pBjowx96"
+    config.consumer_secret = "fRTtHY43OcCYOIJZyvKY0Ka6bYpgi4soZAXtdYzCs23XeI7hQi"
+    config.access_token = "432118495-fZ7cpGcPSK0jMfSnduE5fhVhxaNLnzi2JhY4KBFk"
+    config.access_token_secret = "ZkFshBakVfQ0wRwzac9NqJbKXDFQWvugwjcZSOafVojvU"
   end
 
   def get_search_results

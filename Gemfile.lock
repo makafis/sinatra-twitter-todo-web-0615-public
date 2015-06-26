@@ -95,3 +95,6 @@ DEPENDENCIES
   sinatra
   thin
   twitter
+
+BUNDLED WITH
+   1.10.2
